@@ -1,0 +1,25 @@
+{
+  "name": "responsive-layout",
+  "version": "1.0.0",
+  "description": "A responsive webpage for Verys code challenge.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass styles/main.scss build/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirawiley/responsive-layout.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirawiley/responsive-layout/issues"
+  },
+  "homepage": "https://github.com/kirawiley/responsive-layout#readme",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "node-sass": "^4.5.3"
+  }
+}
