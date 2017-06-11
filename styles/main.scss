@@ -1,0 +1,20 @@
+@import "../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "_colors";
+@import "_layout";
+@import "_utilities";
+@import "_backgrounds";
+
+body {
+  font-family: "Oswald";
+}
+
+#header {
+  @extend .center-text;
+  height: 200px;
+  color: $black;
+  font-weight: 700;
+
+  h1 {
+    font-size: 500%;
+  }
+}
