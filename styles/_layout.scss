@@ -1,9 +1,24 @@
 #header h1 {
-  margin-top: 60px;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
-@media only screen and (max-width: 675px) {
-#header h1 {
-    margin-top: 20px;
+.thumbnail {
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 0;
+
+  .caption {
+    margin-top: 0px;
+    padding: 20px;
   }
+}
+
+#right ul {
+  padding: 0;
+}
+
+#left {
+  padding: 0;
 }
